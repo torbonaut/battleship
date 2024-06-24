@@ -1,7 +1,10 @@
+import { Home } from "./pages/Home/Home";
+import { Login } from "./pages/Login/Login";
+
 export const routes = [
   {
     path: "/",
-    element: <p>Home</p>,
+    element: <Home />,
   },
   {
     path: "/gdpr",
@@ -10,5 +13,9 @@ export const routes = [
   {
     path: "/terms",
     element: <p>Terms</p>,
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ];
